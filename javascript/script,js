@@ -1,0 +1,17 @@
+var audioPlayer = document.getElementById("audio-player");
+var playPauseButton = document.getElementById("play-pause-button");
+var volumeSlider = document.getElementById("volume-slider");
+
+playPauseButton.addEventListener("click", function() {
+    if (audioPlayer.paused) {
+        audioPlayer.play();
+        playPauseButton.innerHTML = "Pause";
+    } else {
+        audioPlayer.pause();
+        playPauseButton.innerHTML = "Play";
+    }
+});
+
+volumeSlider.addEventListener("input", function() {
+    audioPlayer.volume = volumeSlider.value;
+});

@@ -1,0 +1,16 @@
+Mood based Music Player System
+-Web Dev Based Project
+- Based on Emotion
+-HTML and CSS 3 used
+
+PHASE 1
+-Using Spotify or Open Source website for music
+- Redirect User to the site
+
+PHASE 2
+-Developing our own backend site for music playlist
+-Using JavaScript, NodeJS
+
+PHASE 3
+-Recommemd the next playlist according to the mood
+-For Ex: User can get options for sad songs after angry mood
